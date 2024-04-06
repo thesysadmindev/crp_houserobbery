@@ -1,6 +1,3 @@
-ESX = nil
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-
 RegisterServerEvent('fly:checkitem')
 AddEventHandler('fly:checkitem', function()
     local xPlayer = ESX.GetPlayerFromId(source)
