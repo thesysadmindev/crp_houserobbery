@@ -1,3 +1,5 @@
+ESX = exports["es_extended"]:getSharedObject()
+
 RegisterServerEvent('fly:checkitem')
 AddEventHandler('fly:checkitem', function()
     local xPlayer = ESX.GetPlayerFromId(source)
